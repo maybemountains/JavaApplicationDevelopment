@@ -11,7 +11,7 @@ public class FileExercises {
 		fw.close();
 		
 		System.out.println("Can I Write? " + fileObj.canWrite());
-		System.out.println("Can I Read? " + fileObj.canWrite());
+		System.out.println("Can I Read? " + fileObj.canRead());
 		System.out.println("Where am I? " + fileObj.getAbsolutePath());
 		System.out.println("What is my name? " + fileObj.getName());
 		System.out.println("How long am I? " + fileObj.length() + "characters!");
