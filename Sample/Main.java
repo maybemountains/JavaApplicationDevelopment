@@ -28,6 +28,11 @@ public class Main {
 		practice.spongebob();
 		practice.itsAllOneWord(); */
 		
+		 FunctionalInterfaceExample fin = (name, value) -> {
+	            System.out.printf("Hello lambda expression%n %s %s", name, value);
+	        };
+	        fin.test("Abcd", 0);
+		
 		
 	}
 
